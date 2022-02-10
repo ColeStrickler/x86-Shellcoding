@@ -1,0 +1,8 @@
+Select an encoder byte i.e. ==> 0xAA
+
+XOR every byte of shellcode with 0xAA
+
+Write a decoder stub which will XOR the encoded shellcode bytes with 0xAA
+and recover the original shellcode
+
+Control is then passed to the decoded stub
