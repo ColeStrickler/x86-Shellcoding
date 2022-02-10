@@ -1,0 +1,11 @@
+int execve(const char *filename, char *const argv[], char *const envp[]);
+
+
+filename = /bin/bash, 0x0   ==> ebx
+
+Address of /bin/bash   ==> 0x00000000    ==> ecx
+
+3rd arg ==> 0x00000000 ==> edx
+
+
+Can't have nulls ==> must work around
