@@ -1,0 +1,11 @@
+  MMX NOTES
+-------------
+*single instruction multiple data
+*mm0 to mm7
+*can load 8bytes(qword)
+*movq
+*xor ==> pxor
+
+
+**OPERATE AT 8 BYTES AT A TIME!!**
+
